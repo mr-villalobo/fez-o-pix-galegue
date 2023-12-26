@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <h1>
+        Já fez o PIX, Galegue?
+    </h1>
+
+    <button type="button" onclick="click_sim()">Sim</button><button type="button" onclick="click_nao()">Não</button>
+
+    <p id="resultado"></p>
+
+    <script>
+        function click_sim() {
+            document.getElementById("resultado").innerHTML = "Manda o comprovante que libero o link da live";
+        }
+
+        function click_nao() {
+            document.getElementById("resultado").innerHTML = "Mal amigo";
+        }
+    </script>
+</body>
+</html>
